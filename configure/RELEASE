@@ -19,6 +19,7 @@ TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
 #ASYN=$(SUPPORT)/modules/soft/asyn/3-2-asd1
 ASYN=$(SUPPORT)/asyn/master
 SNCSEQ=$(SUPPORT)/seq/master
+ONCRPC=$(SUPPORT)/oncrpc/master
 #EPICS_BASE=$(SUPPORT)/base/3-14-8-2-asd2
 
 #Capfast users may need the following definitions

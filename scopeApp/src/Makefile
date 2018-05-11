@@ -24,6 +24,7 @@ scope_OBJS_vxWorks += $(EPICS_BASE_BIN)/vxComLibrary
 #add a definition for each support application used by this application
 scope_LIBS += devTDS3000
 scope_LIBS += asyn
+scope_LIBS_WIN32 += oncrpc
 SYS_PROD_LIBS_cygwin32 += rpc
 
 

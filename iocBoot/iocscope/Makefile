@@ -1,6 +1,6 @@
 TOP = ../..
 include $(TOP)/configure/CONFIG
 #ARCH = darwin-x86
-ARCH = solaris-sparc
-TARGETS = envPaths
+ARCH = $(EPICS_HOST_ARCH)
+TARGETS = envPaths dllPath.bat
 include $(TOP)/configure/RULES.ioc

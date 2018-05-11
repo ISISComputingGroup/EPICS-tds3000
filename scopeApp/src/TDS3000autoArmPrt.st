@@ -30,7 +30,7 @@ option +r;
 
 %%#include <stdio.h>	/* Standard I?O Functions */
 %%#include <string.h>	/* String Library Functions */
-%%#include <tsDefs.h>	/* Time Stamp Valuse */
+%%#include <epicsTime.h>	/* Time Stamp Valuse */
 %%#include <stdlib.h>	/* Library Functions */
 %%#include <epicsThread.h>  /* New Library Functions replace taskLib.h */
 

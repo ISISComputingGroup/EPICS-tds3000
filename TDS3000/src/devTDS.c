@@ -19,6 +19,7 @@
 #include    <alarm.h>
 #include    <devCommonGpib.h>
 #include    <menuFtype.h>
+#include    <errlog.h>
 
 /*
  * The TDS3000 series and TDS5000 series oscilloscopes share an almost

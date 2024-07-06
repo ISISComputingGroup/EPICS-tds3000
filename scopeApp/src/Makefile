@@ -26,6 +26,7 @@ scope_LIBS += devTDS3000
 scope_LIBS += asyn
 scope_LIBS_WIN32 += oncrpc
 SYS_PROD_LIBS_cygwin32 += rpc
+SYS_PROD_LIBS_Linux += tirpc
 
 
 scope_SRCS += TDS3000autoArmPrt.st
